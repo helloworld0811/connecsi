@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_main.iml" group="backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_test.iml" group="backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metamodel/metamodel.iml" filepath="$PROJECT_DIR$/.idea/modules/metamodel/metamodel.iml" group="metamodel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metamodel/metamodel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/metamodel/metamodel_main.iml" group="metamodel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metamodel/metamodel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/metamodel/metamodel_test.iml" group="metamodel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflow.iml" filepath="$PROJECT_DIR$/.idea/modules/workflow.iml" group="workflow" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflow/workflow_main.iml" filepath="$PROJECT_DIR$/.idea/modules/workflow/workflow_main.iml" group="workflow" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflow/workflow_test.iml" filepath="$PROJECT_DIR$/.idea/modules/workflow/workflow_test.iml" group="workflow" />
+    </modules>
+  </component>
+</project>

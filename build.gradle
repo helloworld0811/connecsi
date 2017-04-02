@@ -1,0 +1,52 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven {
+            url publicUrl
+            credentials {
+                username mavenUser
+                password mavenPassword
+            }
+        }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+        classpath("io.spring.gradle:dependency-management-plugin:0.5.2.RELEASE")
+        classpath('se.transmode.gradle:gradle-docker:1.2')
+        classpath('net.slkdev.swagger.confluence:swagger-confluence-gradle-plugin:2.+')
+        classpath('com.benjaminsproule:swagger-gradle-plugin:+')
+    }
+}
+
+group 'com.connecsi'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'application'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'war'
+apply plugin: 'docker'
+apply plugin: 'net.slkdev.swagger-confluence'
+apply plugin: 'com.benjaminsproule.swagger'
+
+
+project.tasks.matching { it.name ==~ /generatePom.*/ }.all {
+    it.dependsOn 'bootRepackage'
+}
+
+springBoot {
+    executable = true
+}
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
