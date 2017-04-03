@@ -2,10 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="backend-_workflow_main" target="1.8" />
+      <module name="backend-_workflow_test" target="1.8" />
+      <module name="backend-workflow_main" target="1.8" />
+      <module name="backend-workflow_test" target="1.8" />
       <module name="backend_main" target="1.8" />
       <module name="backend_test" target="1.8" />
+      <module name="channel-connector_main" target="1.8" />
+      <module name="channel-connector_test" target="1.8" />
       <module name="metamodel_main" target="1.8" />
       <module name="metamodel_test" target="1.8" />
+      <module name="pmm-services-custom-amex-soa_main" target="1.8" />
+      <module name="pmm-services-custom-amex-soa_test" target="1.8" />
       <module name="workflow_main" target="1.8" />
       <module name="workflow_test" target="1.8" />
     </bytecodeTargetLevel>

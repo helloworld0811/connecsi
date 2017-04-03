@@ -1,4 +1,4 @@
-package main.java.com.connecsi.metamodel.model;
+package com.connecsi.metamodel.model;
 
 import java.util.List;
 
