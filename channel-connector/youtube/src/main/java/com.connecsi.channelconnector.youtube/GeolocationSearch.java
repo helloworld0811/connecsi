@@ -85,10 +85,10 @@ public class GeolocationSearch {
             String queryTerm = getInputQuery();
 
             // Prompt the user to enter location coordinates.
-            String location = getInputLocation();
+            //String location = getInputLocation();
 
             // Prompt the user to enter a location radius.
-            String locationRadius = getInputLocationRadius();
+            //String locationRadius = getInputLocationRadius();
 
             // Define the API request for retrieving search results.
             YouTube.Search.List search = youtube.search().list("id,snippet");
@@ -96,11 +96,12 @@ public class GeolocationSearch {
             // Set your developer key from the {{ Google Cloud Console }} for
             // non-authenticated requests. See:
             // {{ https://cloud.google.com/console }}
-            String apiKey = YoutubeBridge.API_KEY;
+            //String apiKey = "AIzaSyAH0IPiR8ErVbIzFI04HeB9VNPu25n6-L8";
+            String apiKey=YoutubeBridge.API_KEY;
             search.setKey(apiKey);
             search.setQ(queryTerm);
-            search.setLocation(location);
-            search.setLocationRadius(locationRadius);
+            //search.setLocation(location);
+            //search.setLocationRadius(locationRadius);
 
             // Restrict the search results to only include videos. See:
             // https://developers.google.com/youtube/v3/docs/search/list#type
