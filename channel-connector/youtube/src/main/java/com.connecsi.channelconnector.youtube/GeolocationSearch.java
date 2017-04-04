@@ -97,7 +97,7 @@ public class GeolocationSearch {
             // non-authenticated requests. See:
             // {{ https://cloud.google.com/console }}
             //String apiKey = "AIzaSyAH0IPiR8ErVbIzFI04HeB9VNPu25n6-L8";
-            String apiKey=YoutubeBridge.API_KEY;
+            String apiKey=YoutubeConstants.API_KEY;
             search.setKey(apiKey);
             search.setQ(queryTerm);
             //search.setLocation(location);

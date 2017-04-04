@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d48697-83a8-4722-941b-bad871cdd980" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/YoutubeBridge.java" afterPath="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/YoutubeBridge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/GeolocationSearch.java" afterPath="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/GeolocationSearch.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -126,24 +126,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeolocationSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GeolocationSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/GeolocationSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+            <state relative-caret-position="224">
+              <caret line="99" column="42" lean-forward="false" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4623#4631#0" expanded="true" />
+                <element signature="e#4626#4634#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YoutubeBridge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="YoutubeBridge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/YoutubeBridge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2794,10 +2794,10 @@
         <option value="$PROJECT_DIR$/workflow/build.gradle" />
         <option value="$PROJECT_DIR$/metamodel/build.gradle" />
         <option value="$PROJECT_DIR$/channel-connector/build.gradle" />
-        <option value="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/GeolocationSearch.java" />
         <option value="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/YoutubeContants.java" />
         <option value="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/YoutubeConstants.java" />
         <option value="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/YoutubeBridge.java" />
+        <option value="$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/GeolocationSearch.java" />
       </list>
     </option>
   </component>
@@ -3199,16 +3199,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33641404" sideWeight="0.5042598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33641404" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4408503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4408503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24707136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15601704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3602,17 +3603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/GeolocationSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4623#4631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -3647,10 +3637,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/YoutubeBridge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channel-connector/youtube/src/main/java/com.connecsi.channelconnector.youtube/GeolocationSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="99" column="42" lean-forward="false" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4626#4634#0" expanded="true" />
           </folding>
         </state>
       </provider>
