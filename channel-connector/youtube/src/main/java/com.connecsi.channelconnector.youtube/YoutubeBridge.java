@@ -8,17 +8,12 @@ import java.nio.charset.Charset;
  * Created by hku on 03.04.17.
  */
 
-// API KEY: AIzaSyAei1LOM_cbWAJmOqxiwYX-spyPtAa0dW8
 public class YoutubeBridge {
 
     //https://www.googleapis.com/youtube/v3/videos?part=statistics&id=kffacxfA7G4&key=AIzaSyAei1LOM_cbWAJmOqxiwYX-spyPtAa0dW8
 
-    private static String apiUrlPrefix = "https://www.googleapis.com/youtube/v3/videos?part=statistics";
-
-    public static String API_KEY = "AIzaSyAei1LOM_cbWAJmOqxiwYX-spyPtAa0dW8";
-
     public static String getYoutubeStatisticById(String videoId) {
-        String requestUrl = apiUrlPrefix + "&id=" + videoId + "&key=" + API_KEY;
+        String requestUrl = YoutubeConstants.API_URL_PRIFIX + "&id=" + videoId + "&key=" + YoutubeConstants.API_KEY;
         try {
 
             String json = readJsonFromUrl(requestUrl);
