@@ -21,7 +21,7 @@ public class Profile {
 
     private Long friendsCount;
 
-    private KPIType kpiType;
+    private PerformanceMetrics performanceMetrics;
 
     private UserRole userRole;
 
@@ -85,12 +85,12 @@ public class Profile {
         this.friendsCount = friendsCount;
     }
 
-    public KPIType getKpiType() {
-        return kpiType;
+    public PerformanceMetrics getPerformanceMetrics() {
+        return performanceMetrics;
     }
 
-    public void setKpiType(KPIType kpiType) {
-        this.kpiType = kpiType;
+    public void setPerformanceMetrics(PerformanceMetrics performanceMetrics) {
+        this.performanceMetrics = performanceMetrics;
     }
 
     public UserRole getUserRole() {
